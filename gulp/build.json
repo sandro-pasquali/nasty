@@ -1,0 +1,15 @@
+{
+	"watching" : {
+		"src/sass/**"			: ["compass"],
+		"src/media/images/**"	: ["images"],
+		"src/views/**"			: ["views"]
+	},
+	"sourceDirectory"	: "./src",
+	"buildDirectory"	: "./build",
+	"testDirectory"		: "./test/",
+	"traceurDirectory"	: "./src/.traceur",
+	"bundleFilename"	: "application.js",
+	"compassConfig"		: "./compass.rb",
+	"devServerPort"		: 8081,
+	"testServerPort"	: 8082
+}
