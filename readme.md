@@ -6,11 +6,11 @@ Quick and Dirty™ app construction set, with emphasis on Quick.
 Build
 =====
 
+Initially,
+
 > npm install
 
-> gulp
-
-This will fire up a browser window with something on it for you to play with.
+After install `gulp` will automatically run. This will fire up a browser window with something on it for you to play with.
 
 Requirements
 ============
@@ -84,7 +84,7 @@ Configuration is done within `/gulp/tasks/default.js`
 ES6 & Traceur
 =============
 
-All `js` files in `/src/js` and `/src/components` are piped through `Traceur` on build.
+JavaScript files relevant to your build are piped through `Traceur` on build.
 
 This allows you to use many ES6 features, now. For example arrow functions. This:
 
@@ -101,9 +101,3 @@ var tester = function() {
 ```
 
 For a list of what `Traceur` provides, visit [this page.](https://github.com/google/traceur-compiler/wiki/LanguageFeatures)
-
-LevelDB
-=======
-
-Try it out. If you really hate it, not very hard to remove the dependency. It isn't needed to run the framework, though it is necessary if you want to store data using the built-in access methods (you can always do something else)
-
